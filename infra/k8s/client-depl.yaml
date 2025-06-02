@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: client
-          image: srayen/client
+          image: ridhomul/client
 
 ---
 apiVersion: v1

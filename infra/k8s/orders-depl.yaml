@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: orders
-          image: srayen/orders
+          image: ridhomul/orders
           env:
             # we will use the ticket's pod name as our NATS client ID (it's randomly generated & unique )
             - name: NATS_CLIENT_ID
